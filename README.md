@@ -18,9 +18,9 @@ let me know, I am not aware of any sort of current property rights that may be v
 Should also be noted that there are a ton of issues with the current program and at this point is more like a visual of what was done here. But this doesn't necessarily prohibit the use of trying it.
 
 What was not implemented:
-⋅⋅⋅Score System
-⋅⋅⋅Progression
-⋅⋅⋅Hook enemy
-⋅⋅⋅Designer
-⋅⋅⋅2-Players
-⋅⋅⋅Upgrade and Galaga animations
++ Score System
++ Progression
++ Hook enemy
++ Designer
++ 2-Players
++ Upgrade and Galaga animations
