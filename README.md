@@ -1,26 +1,13 @@
-# not-a-galaga-clone
-Really because it doesn't feel like it. I've tried for many days to upscale from one of my previous versions for this app and none of them
-ended up really working out for me. So in the end here is a simple version of the one that I ended up working to be able to host using Node.
-
+# not-a-galaga-web-clone
+A silly project that was not completely finished. It ended actually taking almost one of my entire summer breaks (Late June-Mid August 2021) simply because I was not aware of the amass number of theory topics I needed to understand, how JavaScript was meant to be used, and just overall bad time management. In the end I realized most of the time I spent could have been resolved with understanding the design of the game rather than going hardcore and starting to program right away. This was more of an experimentation really for me to get interested in web programming and just because I was participating amongst some closer individuals in a small competition :)
 
 ## Description
-A Basic attempt to recreate Galaga a known late 1980's game virtually on arcade machines. Using javascript and its canvas API it was sort of used
-to replicated for web use without needing to be locally hosted but of course, now were here? Anyways many of the features of the code produced
-has been difficult to manage simply because everything was originally in one file.
-
-Use npm install and npm start to run the files from the main directory.
-
+An attempt to recreate Galaga (a late 1980's game virtually known for adapting space invaders in a more fashioned and technical way) with modern browser graphics HTML5. 
 
 ## FYI
 All asset files were taken from online sources and not from any properties containing disclosed information or designs. If need be for any take downs
 let me know, I am not aware of any sort of current property rights that may be violated.
 
-Should also be noted that there are a ton of issues with the current program and at this point is more like a visual of what was done here. But this doesn't necessarily prohibit the use of trying it.
+Should also be noted that there are a ton of issues with the current program and at this point it's more like a visual of what was meant to be created, but of course, this doesn't necessarily prohibit the use of trying it if you want to. Just note that most of the core programming exist in one file.
 
-What was not implemented:
-+ Score System
-+ Progression
-+ Hook enemy
-+ Designer
-+ 2-Players
-+ Upgrade and Galaga animations
+It can still be run by running a modern version of Node.js with the usual run command that exist in the package.json file. Express should automatically take care of the rest, and the address should be run locally when trying on the browser interface.
