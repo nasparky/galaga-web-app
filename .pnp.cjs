@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@microsoft/tsdoc", "npm:0.14.2"],\
           ["@types/node", "npm:20.12.12"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["vite", "virtual:fac4538a23aeb5b57c135defba969ef8e96fcd6021052a191448c1eef55fae1d4feaba8452e0b598ed78aba1ef8d58bed81868349f6877593a2e6a2527a089eb#npm:5.2.11"]\
@@ -261,6 +262,15 @@ const RAW_RUNTIME_STATE =
             "wrap-ansi",\
             "npm:7.0.0"\
           ]]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@microsoft/tsdoc", [\
+      ["npm:0.14.2", {\
+        "packageLocation": "./.yarn/cache/@microsoft-tsdoc-npm-0.14.2-9988282153-00c3d4fc18.zip/node_modules/@microsoft/tsdoc/",\
+        "packageDependencies": [\
+          ["@microsoft/tsdoc", "npm:0.14.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -774,6 +784,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["galaga-web-app", "workspace:."],\
+          ["@microsoft/tsdoc", "npm:0.14.2"],\
           ["@types/node", "npm:20.12.12"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["vite", "virtual:fac4538a23aeb5b57c135defba969ef8e96fcd6021052a191448c1eef55fae1d4feaba8452e0b598ed78aba1ef8d58bed81868349f6877593a2e6a2527a089eb#npm:5.2.11"]\

@@ -71,17 +71,21 @@ class Vector2 {
   }
 
   distanceToSquared(v) {
-    const dx = this.x - v.x, dy = this.y - v.y;
+    const dx = this.x - v.x,
+      dy = this.y - v.y;
     return dx * dx + dy * dy;
   }
 
-  distanceTo(v) { // Assuming v is the farther vector
-    return Math.sqrt((v.x - this.x) * (v.x - this.x) + (v.y - this.y) * (v.y - this.y));
+  distanceTo(v) {
+    // Assuming v is the farther vector
+    return Math.sqrt(
+      (v.x - this.x) * (v.x - this.x) + (v.y - this.y) * (v.y - this.y)
+    );
   }
 
   angle() {
     // computes the angle in radians with respect to the positive x-axis
-    const angle = Math.atan2(- this.y, - this.x) + Math.PI;
+    const angle = Math.atan2(-this.y, -this.x) + Math.PI;
     return angle;
   }
 }

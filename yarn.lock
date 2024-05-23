@@ -180,6 +180,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@microsoft/tsdoc@npm:^0.14.2":
+  version: 0.14.2
+  resolution: "@microsoft/tsdoc@npm:0.14.2"
+  checksum: 10/00c3d4fc184e8e09e17aef57e4a990402bd9752607a5d50bd62a9e85bc4b8791c985a51e238affa6b9a2d23110f24d373becbfc84e1e6e9a84cf977822e3b00a
+  languageName: node
+  linkType: hard
+
 "@npmcli/agent@npm:^2.0.0":
   version: 2.2.2
   resolution: "@npmcli/agent@npm:2.2.2"
@@ -664,6 +671,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "galaga-web-app@workspace:."
   dependencies:
+    "@microsoft/tsdoc": "npm:^0.14.2"
     "@types/node": "npm:^20.12.12"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.2.0"
