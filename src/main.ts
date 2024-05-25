@@ -17,17 +17,14 @@ const crs = new CatmullRomSpline2(
   [new Vector2(0, 0), new Vector2(200, 100), new Vector2(500, 50), new Vector2(800, 600)], true
 )
 
-console.log(crs)
-
 ctx.fillStyle = "red"
-
 
 for (let i = 0; i < 1; i += 0.005) {
   const v = crs.getPointAt(i)
-  console.log(v.x, v.y, 5, 5)
+  //console.log(v.x, v.y, 5, 5)
   ctx.fillRect(v.x, v.y, 5, 5)
 
-  console.log(v)
+  //console.log(v)
 }
 
 /*

@@ -1,0 +1,1 @@
+Dynamic typed parameters, handling parameters and functions through callbacks with generics: https://stackoverflow.com/questions/12907038/typescript-declaration-file-for-function-with-variable-number-type-of-arguments
